@@ -1,0 +1,313 @@
+/*banner*/
+
+.banner-title{
+    -moz-animation: banner-title 1s ease-in-out;
+    -webkit-animation: banner-title 1s ease-in-out;
+}
+
+.banner-subtitle{
+    -moz-animation: banner-subtitle 1s ease-in-out;
+    -webkit-animation: banner-subtitle 1s ease-in-out;
+}
+
+@-webkit-keyframes banner-title{
+    0%{
+        opacity: 0;
+        transform: translateX(10px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@-moz-keyframes banner-title{
+    0%{
+        opacity: 0;
+        transform: translateX(10px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@-webkit-keyframes banner-subtitle{
+    0%{
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@-moz-keyframes banner-subtitle{
+    0%{
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+/*
+.banner {
+    -moz-animation: banner 1.5s ease-in-out;
+    -webkit-animation: banner 1.5s ease-in-out;
+}
+
+@-webkit-keyframes banner {
+    0% {
+        filter: grayscale(1);
+    }
+
+    100% {
+        filter: grayscale(0);
+    }
+}
+
+@-moz-keyframes banner {
+    0% {
+        filter: grayscale(1);
+    }
+
+    100% {
+        filter: grayscale(0);
+    }
+}
+*/
+
+/*skill*/
+
+.html5 {
+    width: 70%;
+    -moz-animation: html5 3s ease-out;
+    -webkit-animation: html5 3s ease-out;
+}
+
+.css3 {
+    width: 70%;
+    -moz-animation: css3 3s ease-out;
+    -webkit-animation: css3 3s ease-out;
+}
+
+.js{
+	width: 60%;
+	-moz-animation: js 3s ease-out;
+    -webkit-animation: js 3s ease-out;
+}
+
+.jquery {
+    width: 50%;
+    -moz-animation: jquery 3s ease-out;
+    -webkit-animation: jquery 3s ease-out;
+}
+
+.php {
+    width: 50%;
+    -moz-animation: php 3s ease-out;
+    -webkit-animation: php 3s ease-out;
+}
+
+.photoshop {
+    width: 30%;
+    -moz-animation: photoshop 3s ease-out;
+    -webkit-animation: photoshop 3s ease-out;
+}
+
+
+@-moz-keyframes html5 {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+@-moz-keyframes css3 {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+@-moz-keyframes js {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+
+@-moz-keyframes jquery {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 50%;
+    }
+}
+
+@-moz-keyframes php {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 50%;
+    }
+}
+
+@-moz-keyframes photoshop {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 30%;
+    }
+}
+
+
+@-webkit-keyframes html5 {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+@-webkit-keyframes css3 {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+@-webkit-keyframes js {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+
+@-webkit-keyframes jquery {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 50%;
+    }
+}
+
+@-webkit-keyframes php {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 50%;
+    }
+}
+
+@-webkit-keyframes photoshop {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 30%;
+    }
+}
+
+/*about*/
+
+/*
+.about-inner{
+    -moz-animation: about-inner 1s ease-in-out;
+    -webkit-animation: about-inner 1s ease-in-out;
+}
+
+@-webkit-keyframes about-inner{
+    0%{
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@-moz-keyframes about-inner{
+    0%{
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+*/
+
+/*resume*/
+
+/*
+#resume{
+    -moz-animation: resume 1s ease-in-out;
+    -webkit-animation: resume 1s ease-in-out;
+}
+
+@-webkit-keyframes resume{
+    0%{
+        opacity: 0;
+        transform: translateX(-10px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@-moz-keyframes resume{
+    0%{
+        opacity: 0;
+        transform: translateX(-10px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+*/
+

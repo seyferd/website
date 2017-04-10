@@ -1,0 +1,20 @@
+@mixin box-sizing($box : border-box){
+    -webkit-box-sizing: $box;
+    -moz-box-sizing: $box;
+    -ms-box-sizing: $box;
+    box-sizing: $box;
+}
+
+//media query mixins
+
+@mixin mobile{
+    @media only screen and (max-width: 480px){
+        @content;
+    }
+}
+
+@mixin tablet{
+    @media only screen and (max-width: 1024px){
+        @content;
+    }
+}
