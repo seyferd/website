@@ -3,8 +3,12 @@ $(document).ready(function(){
 	// mobile nav
 	$(".burger-nav").on("click", function(){
 		// $(".burger-menu").toggleClass("open");
-		$(".burger-menu").slideToggle("fast");
+		$(".burger-menu").slideToggle("fast"); 
 	});
+    
+    $(".burger-menu a").on("click",function(){
+           $(".burger-menu").slideToggle("fast"); 
+    });
 
 	$(".dropdown-content").hover(function(){
 		$(".dropdown-content li").toggle();
